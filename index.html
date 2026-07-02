@@ -500,7 +500,7 @@
         <section id="newsletter">
             <h2>Subscribe Newsletter</h2>
             <div class="form-layout">
-                <form action="https://formspree.io/f/YOUR_NEWSLETTER_ID_HERE" method="POST">
+                <form action="https://formspree.io/f/xyyaqwrq" method="POST">
                     <div class="form-group">
                         <label for="news-email">Email ID Type करें</label>
                         <input type="email" id="news-email" name="email" placeholder="example@domain.com" required>
@@ -513,7 +513,7 @@
         <section id="contact-form">
             <h2>Get In Touch</h2>
             <div class="form-layout">
-                <form id="g-sheet-form" action="https://formspree.io/f/YOUR_CONTACT_ID_HERE" method="POST">
+                <form id="g-sheet-form" action="https://formspree.io/f/xyyaqwrq" method="POST">
                     <div class="form-group">
                         <label>Name</label>
                         <input type="text" name="name" placeholder="आपका नाम" required>
@@ -588,7 +588,6 @@
     </div>
 
     <script>
-        // 1. Digital Card Sharing Functionality
         function shareVisitingCard() {
             if (navigator.share) {
                 navigator.share({
@@ -598,13 +597,11 @@
                 }).then(() => console.log('Successfully Shared'))
                 .catch((error) => console.log('Error sharing:', error));
             } else {
-                // Fallback for desktop browsers
                 alert("Visiting Card Details:\nName: Avnish Kumar\nEmail: avnishahirwar@zohomail.in\nLink Copied to Clipboard!");
                 navigator.clipboard.writeText(window.location.href);
             }
         }
 
-        // Utility: Update file name placeholder on select
         function updateFileName(inputId, labelId) {
             const input = document.getElementById(inputId);
             const label = document.getElementById(labelId);
@@ -614,7 +611,6 @@
             }
         }
 
-        // 8-A. Image to PDF Client-side converter
         function convertImgToPdf() {
             const fileInput = document.getElementById('imageInput');
             if (fileInput.files.length === 0) {
@@ -629,15 +625,12 @@
                 const imgData = event.target.result;
                 const { jsPDF } = window.jspdf;
                 const pdf = new jsPDF();
-                
-                // Add uploaded image to Document
                 pdf.addImage(imgData, 'JPEG', 10, 10, 190, 150);
                 pdf.save('Avnish_Kumar_Generated_Document.pdf');
             };
             reader.readAsDataURL(file);
         }
 
-        // 8-B. PDF to Docs Simulation Downloader
         function convertPdfToDocs() {
             const fileInput = document.getElementById('pdfInput');
             if (fileInput.files.length === 0) {
@@ -645,7 +638,6 @@
                 return;
             }
 
-            // Simulating parsing by converting file into a downloadable text document template
             const file = fileInput.files[0];
             const convertedText = "Document Title: " + file.name + "\nProcessed via Avnish Kumar Portal\n\n[Content Processed Successfully]";
             
@@ -662,4 +654,3 @@
     </script>
 </body>
 </html>
-
