@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Avnish Kumar Portfolio Feed</title>
+  <subtitle>Official web updates, literary publications, and smart tools.</subtitle>
+  <link href="https://avnishahirwar.github.io/avnish/atom.xml" rel="self"/>
+  <link href="https://avnishahirwar.github.io/avnish/"/>
+  <updated>2026-07-03T00:00:00Z</updated>
+  <id>https://avnishahirwar.github.io/avnish/</id>
+  <author>
+    <name>Avnish Kumar</name>
+    <email>avnishahirwar@zohomail.in</email>
+  </author>
+
+  <entry>
+    <title>Avnish Kumar Digital Card &amp; Portfolio Hub</title>
+    <link href="https://avnishahirwar.github.io/avnish/"/>
+    <id>https://avnishahirwar.github.io/avnish/</id>
+    <updated>2026-07-03T00:00:00Z</updated>
+    <summary>The central digital infrastructure for Avnish Kumar, integrating cloud PDF generators, corporate workflows, and book distributors.</summary>
+  </entry>
+</feed>
+
