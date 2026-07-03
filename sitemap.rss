@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Avnish Kumar | Official Portfolio Update Feed</title>
+    <title>Avnish Kumar (Avnish Ahirwar) Official Updates</title>
     <link>https://avnishahirwar.github.io/avnish/</link>
-    <description>Latest links, utilities tools, and author profile updates for Avnish Kumar.</description>
+    <description>Latest updates, publication details of Flight 143: Khaufnak Pal, and official biography of Author Avnish Ahirwar.</description>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0530</lastBuildDate>
     <atom:link href="https://avnishahirwar.github.io/avnish/sitemap.rss" rel="self" type="application/rss+xml" />
     <item>
-      <title>Avnish Kumar Official Luxury Portfolio Home</title>
+      <title>Official Biography &amp; Knowledge Panel Assets</title>
       <link>https://avnishahirwar.github.io/avnish/</link>
-      <description>Explore the digital hub of Avnish Kumar featuring Flight 143, developer modules, and corporate contact forms.</description>
-      <guid isPermaLink="true">https://avnishahirwar.github.io/avnish/</guid>
+      <description>Verified metrics, parentage, educational qualifications, and digital portfolio of Avnish Kumar.</description>
+      <guid>https://avnishahirwar.github.io/avnish/#hero-intro</guid>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0530</pubDate>
     </item>
   </channel>
 </rss>
-
